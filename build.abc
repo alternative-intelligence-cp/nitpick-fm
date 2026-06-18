@@ -6,4 +6,4 @@ version = "0.1.0"
 type = "binary"
 sources = ["src/main.npk"]
 deps = []
-flags = ["-L../../../nitpick-libc/shim", "-lnitpick_libc_mem", "-lnitpick_libc_math"]
+flags = ["-L${ENV.NITPICK_WORKSPACE}/nitpick-packages/packages/nitpick-libc/shim", "-lnitpick_libc_mem", "-lnitpick_libc_math"]
